@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".RecipeActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/oleo_script_swash_caps"
+                android:text="@string/recipeName"
+                android:textSize="21sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:lineSpacingExtra="8sp"
+
+                android:text="@string/ingredients"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/oleo_script_swash_caps"
+                android:text="@string/recipeName"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:lineSpacingExtra="8sp"
+
+                android:text="@string/ingredients"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+
